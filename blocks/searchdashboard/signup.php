@@ -1,0 +1,21 @@
+<?php require_once("../../config.php");
+global $DB, $OUTPUT, $PAGE, $USER,$CFG;
+ include_once 'Signup_form.php'; 
+ include_once 'weblocallib.php'; 
+ global $DB, $OUTPUT, $PAGE, $USER,$CFG,$SESSION;
+ $login=new Signup_form();
+ $weblocallib=new weblocallib();
+ $dataquery = $DB->get_record('other_seo_url',array('url'=>$_SERVER['REQUEST_URI']));
+ $titledata=new stdClass();
+ $titledata->title=$dataquery->title;
+ $titledata->description=$dataquery->description;
+ $titledata->keywords=$dataquery->keywords;
+echo $login->headerlib($titledata);
+echo html_writer::start_tag('div', array('class' => 'to_p_man'));
+include('header.php');
+echo html_writer::end_tag('div');
+echo html_writer::end_tag('section');
+echo $login->signup();
+include('footer.php');
+echo $login->footerscript();
+

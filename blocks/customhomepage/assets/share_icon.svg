@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="share_icon" transform="translate(-1284 -1207)">
+    <g id="Rectangle_108" data-name="Rectangle 108" transform="translate(1284 1207)" fill="#fff" stroke="#e5e5e5" stroke-width="1">
+      <rect width="50" height="50" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="49" height="49" rx="7.5" fill="none"/>
+    </g>
+    <g id="Icon_feather-share-2" data-name="Icon feather-share-2" transform="translate(1293.5 1217)">
+      <path id="Path_1627" data-name="Path 1627" d="M29.973,6.737A3.737,3.737,0,1,1,26.237,3,3.737,3.737,0,0,1,29.973,6.737Z" transform="translate(-3.054)" fill="none" stroke="#584dff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_1628" data-name="Path 1628" d="M11.973,17.237A3.737,3.737,0,1,1,8.237,13.5,3.737,3.737,0,0,1,11.973,17.237Z" transform="translate(0 -1.781)" fill="none" stroke="#584dff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_1629" data-name="Path 1629" d="M29.973,27.737A3.737,3.737,0,1,1,26.237,24,3.737,3.737,0,0,1,29.973,27.737Z" transform="translate(-3.054 -3.563)" fill="none" stroke="#584dff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_1630" data-name="Path 1630" d="M12.885,20.265l8.507,4.957" transform="translate(-1.423 -2.929)" fill="none" stroke="#584dff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_1631" data-name="Path 1631" d="M21.379,9.765l-8.494,4.957" transform="translate(-1.423 -1.148)" fill="none" stroke="#584dff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

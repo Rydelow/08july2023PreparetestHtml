@@ -1,0 +1,71 @@
+.loder{
+    text-align: center;
+        display: block;
+}
+   .loder img {
+    width: 6%;
+}
+
+.card.mb-0.car_d_p{
+    border: none;
+}
+a.card-title {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.card-body {
+    width: 99%;
+    margin: auto;
+    /* border: 1px solid #eee!important; */
+    /* margin-top: 0px; */
+ /*   z-index: 9;*/
+    background-color: #ffff;
+    border-top: none!important;
+    width: 98%;
+    margin: auto;
+    border: 1px solid #eee!important;
+    margin-top: -1px;
+    /* z-index: 9999; */
+    /* background-color: #ffff; */
+    border-top: none!important;
+}
+
+
+.accordion>.card>.card-header {
+    border-radius: 0;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+
+.to_p_man, .section.bg-img {
+    position: relative;
+}
+img.teacher {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    empty-cells: 57%;
+    width: 44%;
+}
+    .coursebox .content .summary {
+    height: 32px !important;
+ 
+}
+
+.category.notloaded {
+    width: 23%;
+    float: left;
+    border: solid 1px #525050;
+    margin-left: 7px;
+    height: 107px;
+    margin-bottom: 10px;
+    box-shadow: 2px 0px 6px 1px #e5e5e5;
+}
+.course_category_tree .category>.info>.categoryname {
+    display: inline-flex;
+
+}
+.course_category_tree .category.with_children.collapsed>.info>.categoryname{
+    border: none!important;
+}

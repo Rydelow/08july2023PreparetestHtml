@@ -1,0 +1,203 @@
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu {
+	left: 0 !important;
+	cursor: pointer !important;
+}
+
+.dropdown-item {
+	color: #1a2b51;
+	background-color: #f7f7f7;
+	padding: 9px 20px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer !important;
+
+}
+
+
+
+.dropdown-item:hover {
+	background-color: #647396;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.dropdown-menu:hover .onHoverShowBtn {
+	display: block !important;
+}
+
+
+.presentation {
+	background-color: #f7f7f7;
+	padding: 10px 10px;
+	text-transform: uppercase;
+	border-radius: 0px;
+	border: none;
+	font-size: 15px;
+	color: #1a2b51;
+	cursor: pointer !important;
+}
+
+.presentation:hover {
+	background-color: #647396;
+	color: white;
+}
+
+.presentation .row i {
+	margin: 5px;
+	cursor: pointer !important;
+}
+
+.onHoverShowBtn {
+	display: none;
+	right: 0;
+	bottom: 42px;
+}
+
+.onHoverShowBtn i {
+	cursor: pointer !important;
+}
+
+.presentation:hover .onHoverShowBtn {
+	display: block !important;
+
+
+}
+
+.dropdown-item:hover .onHoverShowBtn {
+	display: block !important;
+
+}
+
+.add-btn {
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	cursor: pointer !important;
+}
+
+.add-btn i {
+	margin-right: 2px;
+	cursor: pointer !important;
+}
+
+.add-btn button {
+	font-size: 16px;
+	background: #2ab354;
+	padding: 4px 24px;
+	color: #fff;
+	border-radius: 0px;
+	border: transparent;
+	text-transform: capitalize;
+	cursor: pointer !important;
+	outline: none;
+
+}
+
+.edit-btn {
+	margin-right: 80px;
+}
+
+.edit-btn i {
+	margin-right: 5px;
+	cursor: pointer !important;
+}
+
+.edit-btn button {
+	text-align: end;
+	font-size: 16px;
+	background: #2ab354;
+	padding: 4px 24px;
+	color: #fff;
+	border-radius: 0px;
+	border: transparent;
+	text-transform: capitalize;
+	cursor: pointer !important;
+	outline: none;
+}
+
+.table-color {
+	color: #0094a8;
+	text-transform: uppercase;
+	text-align: left !important;
+}
+
+.mail {
+	font-size: 12px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #0094a8;
+}
+
+.tcontent {
+	margin-right: 198px;
+}
+
+.fulcontent {
+	background-color: #fff;
+	box-shadow: 0 3px 10px #d7d7d7;
+}
+
+button.presentation.active {
+	background-color: #647396;
+	color: white;
+}
+
+.random {
+	position: absolute;
+	bottom: -28px;
+}
+
+.mobile-row a {
+	text-decoration: none;
+}
+
+/* SACHIN 14-APRIL-2022 */
+
+
+#content70 table tbody tr td {
+	border: 1px dashed #bbb;
+}
+
+
+
+
+@media(max-width: 567px) {
+	.dcontent {
+		width: 100%;
+	}
+
+	.add-btn {
+		margin-top: 20px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.mobile-row {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.mobile-row .dropdown {
+		margin-top: 10px;
+	}
+
+	.edit-btn {
+		display: flex;
+		justify-content: center !important;
+		align-items: center;
+		margin-right: 18px;
+	}
+
+	.tcontent {
+		text-align: justify;
+		margin-right: 0px;
+	}
+}

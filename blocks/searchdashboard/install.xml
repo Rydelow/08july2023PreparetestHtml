@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/searchdashboard/db" VERSION="20120925" COMMENT="XMLDB file for Moodle blocks/searchdashboard" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
+  <TABLES>
+      <TABLE NAME="searchdash_img" COMMENT="Defines searchdash_img">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="9" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="searchdash_img" TYPE="int" LENGTH="18" NOTNULL="false" SEQUENCE="false" />
+        <FIELD NAME="createdtime" TYPE="int" LENGTH="18" NOTNULL="false" SEQUENCE="false" />
+        <FIELD NAME="modifiedtime" TYPE="int" LENGTH="18" NOTNULL="false" SEQUENCE="false" />
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id" COMMENT="Primary key for scrhpad"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>
+

@@ -1,0 +1,85 @@
+{{{style}}}
+
+<div class="frow">
+   <div class='bcol-md-9'>
+      <div class="mmform d_flex">
+         <label for="category">FiLter Category</label>
+         <select class="m_fcontrol" filtercategory>
+            <option value="" disabled selected hidden>Select category</option>
+            {{{category}}}
+         </select>
+      </div>
+
+
+      <div class="mmform d_flex">
+         <label for="category">Sub Category</label>
+         <select  class="m_fcontrol" filtersubcategory>
+            <option value="" disabled selected hidden>Select category</option>
+            {{{subcategory}}}
+         </select>
+      </div>
+
+{{#thirdcategory}} 
+      <div class="mmform d_flex">
+         <label for="category">Third Category</label>
+         <select class="m_fcontrol" filterthirdcategory>
+           {{{thirdcategory}}}
+         </select>
+      </div>
+{{/thirdcategory}}
+
+
+   </div>
+   <div class='bcol-md-3 pdt8'>
+      {{{addbutton}}}
+   </div>
+</div>
+
+
+
+
+
+<table id="example" class="table table-striped table-bordered" style="width:100%">
+   <thead>
+      <tr>
+         <td>Title</td>
+         <td>URI</td>
+         <th>Keywords</th>
+        <!--  <th>Description</th> -->
+        
+         <th>Action</th>
+      </tr>
+   </thead>
+   <tbody>
+     
+
+      <tr>
+         <td>ddd</td>
+         <td>dddddd</td>
+         <td>eee</td>
+        
+        
+         <td>
+            <ul class="mmenu">
+               <li><a href="javascript:void(0)"  class='edit editmodal' dataid="{{id}}" datathid="{{th_id}}" datascid="{{currentsecondid}}" ><i class="fas fa-pen"></i></a></li>
+               <li><a href="{{{config.wwwroot}}}/local/seodashboard/allseodata.php?status={{id}}&id={{currenturlid}}" onClick="javascript:return confirm('are you sure status update ?');" class='edit seostatus'><i class="fas {{#status}} 
+                  fa-eye-slash 
+                  {{/status}}{{^status}} fa-eye {{/status}}  "></i></a></li>
+               <li><a href="{{{config.wwwroot}}}/local/seodashboard/allseodata.php?delete={{id}}&id={{currenturlid}}" class='edit seodelete' onClick="javascript:return confirm('are you sure you want to delete ?');"><i class="fas fa-trash-alt" ></i></a></li>
+            </ul>
+         </td>
+      </tr>
+
+   </tbody>
+   <tfoot>
+      <tr>
+         <td>Title</td>
+         <td>URI</td>
+         <th>Keywords</th>
+            <th>Action</th>
+      </tr>
+   </tfoot>
+</table>
+
+
+
